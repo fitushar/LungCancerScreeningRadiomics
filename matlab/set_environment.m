@@ -12,9 +12,9 @@ global dicom_path;
 global data_path;
 global output_path;
 
-dicom_path = '../DATA/LIDC-IDRI'; %dcm files directory
-data_path = '../DATA/'; 
-output_path = 'output/';
+dicom_path = 'D:\Dataset\Lidc_preproocesing\Nodules_LIDC_IDRI\DICOM\LIDC-IDRI'; %dcm files directory
+data_path = 'D:\Dataset\Lidc_preproocesing\Nodules_LIDC_IDRI\DICOM\'; 
+output_path = 'D:\Dataset\Lidc_preproocesing\Nodules_LIDC_IDRI\OUTPUT\';
 
 ConformalizedMCF = ['docker run -v ' tempdir ':' tempdir ' wookjinchoi/conformalized_mcf:latest ConformalizedMCF'];
 
